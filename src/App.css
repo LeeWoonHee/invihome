@@ -1,0 +1,176 @@
+*{
+  margin:0;
+  padding:0;
+  text-decoration: none;
+}
+img{
+  vertical-align: middle;
+}
+li{
+  list-style: none;
+}
+body{
+  background:#111;
+  color:#ccc;
+}
+.logo{
+  width:120px;
+}
+.logo>a>img{
+  width:100%;
+}
+.Wrap{
+  background:#111;
+}
+li>a{
+  color:#ccc;
+}
+.innerBox{
+  max-width:1200px;
+  margin:0 auto;
+}
+header{
+  border-bottom:1px solid #333;
+}
+header>.innerBox{
+  display:flex;
+  justify-content: space-between;
+}
+a{
+  text-decoration: none;
+}
+#nav{
+  display:flex;
+  justify-content:flex-end;
+  align-items: center;
+}
+#nav>li{
+  margin:50px;
+}
+#nav>li>a{
+  color:#ccc;
+}
+.container{
+  text-align:left;
+  padding-top:50px;
+}
+.containerf{
+  text-align:center;
+  padding-top:50px 0;
+}
+body {
+  
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.innerBox {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  border-bottom: 1px solid #333;
+}
+
+header>.innerBox {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.logo {
+  width: 80px;
+}
+.logo>a{
+
+  /* display:flex;
+  justify-content: space-between; */
+
+}
+.logo>a>.txt{
+  font-size:20px;
+  color:#ccc;
+  position:absolute;
+  top:30px;
+  left:120px;
+}
+.logo img {
+  width: 100%;
+}
+
+#nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#nav>li {
+  margin: 0 50px;
+}
+
+#nav>li>a {
+  color: white;
+}
+
+.containerf {
+  padding-top: 150px;
+}
+
+.titleBox {
+  text-align: left;
+  margin-left:20%;
+}
+.titleBox>h2{
+  font-size:40px;
+}
+.titleBox>div {
+  margin: 50px 0;
+}
+
+.titleBox>.main>p {
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.titleBox>div>.maskText>.mask {
+  font-weight: 700;
+  font-size: 80px;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0060af+2,e93cec+100 */
+  background: rgb(0, 96, 175);
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, rgba(0, 96, 175, 1) 2%, rgba(233, 60, 236, 1) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, rgba(0, 96, 175, 1) 2%, rgba(233, 60, 236, 1) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, rgba(0, 96, 175, 1) 2%, rgba(233, 60, 236, 1) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0060af', endColorstr='#e93cec', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+
+  background-clip: text;
+  color: rgba(0, 0, 0, 0);
+}
+.titleBox>div>.maskText{
+  padding-top:50px;
+}
+.subtxt>p{
+  font-size:16px;
+  color:#aaa;
+}

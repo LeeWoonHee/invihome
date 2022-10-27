@@ -1,0 +1,37 @@
+.slick-arrow{
+    position:absolute;
+    top:40%;
+}
+.slick-prev{
+    left:0;
+    z-index: 1;
+}
+.slick-next{
+    right:0
+}
+.slick-slider>button{
+    background:black;
+    border:2px solid white;
+    width:70px;
+    height:30px;
+    font-weight:bold;
+    border-radius: 20px;
+    color:white;
+}
+.portfolioWrap{
+    margin-top:50px;
+}
+.portfolioWrap div>p>a{
+    color:white;
+    font-size:18px;
+    font-weight:bold;
+}
+.portfolioWrap div>p{
+    text-align:center;
+}
+.portfolioWrap div>img{
+    width:100%;
+}
+.portfolioWrap div>p{
+    margin:20px 0;
+}

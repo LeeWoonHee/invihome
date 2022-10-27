@@ -1,0 +1,12 @@
+.todoWrap{
+    width:500px;
+    margin:50px auto;
+    background:green;
+    padding:35px 25px;
+    color:white;
+    border-radius: 30px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+.formWrap{
+
+}

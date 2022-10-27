@@ -1,0 +1,82 @@
+
+.skillWrap>section>.frontWrap{
+    padding-top:50px;
+}
+
+.skillWrap section>div{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.skillWrap section>div .sbox{
+    display:block;
+    text-align:center;
+    margin:10px 1%;
+    width:25%;
+}
+.sbox{
+background:white;
+padding:20px;
+border-radius: 10px;;
+justify-content: space-evenly;
+margin:25px 0;
+box-sizing: border-box;
+color:#111;
+}
+/* .skillWrap section>div .box:nth-child(6),
+.skillWrap section>div .box:nth-child(7),
+.skillWrap section>div .box:last-child{
+    width:5%;
+}
+.skillWrap section>div>.box:nth-child(6) .imgBox,
+.skillWrap section>div>.box:nth-child(7) .imgBox,
+.skillWrap section>div>.box:last-child .imgBox{
+    width:5%;
+} */
+.sbox>.imgBox>img{
+    width:100%;
+}
+.etc{
+    width:27%;
+    margin-top:20px;    
+}
+.etcBox{
+    width:100%;
+    display:flex;
+    margin-top:140px;
+    /* margin-left:10px; */
+}
+.skillWrap section>div >.etc>h2{
+    margin-left:10px;
+}
+.etc>.etcBox>.ebox{
+    width:18%;
+    height:35%;
+    text-align:center;
+    margin:10px 5px;
+    padding:20px 0;
+    background:white;
+    padding:20px;
+    border-radius: 10px;
+    color:#111;
+}
+.etc>.etcBox>.ebox>.imgBox>img{
+    width:100%;
+}
+.etc>.etcBox>.ebox>.imgBox{
+    width: 100%;
+}
+.etc>.etcBox>.ebox>.textBox{
+    margin-top:15px;
+    font-size:11px;
+}
+.skillWrap section>div .imgBox{
+    width:100%;
+    box-sizing: border-box;
+}
+.sbox:nth-child(4)>.imgBox{
+    margin-top:70px;
+}
+.sbox:nth-child(4)>.textBox{
+    margin-top:50px;
+}
